@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Make your cards</title>
+	</head>
+	<body>
+		<h1>Créer votre propre carte !</h1>
+		<main>
+			<section id="result">
+				<img src="https://picsum.photos/960/540?random=3" />
+				<p>Votre message sera ici</p>
+			</section>
+			<section id="maker">
+				<section id="images">
+					<img src="https://picsum.photos/960/540?random=1" />
+					<img src="https://picsum.photos/960/540?random=2" />
+					<img src="https://picsum.photos/960/540?random=3" />
+					<img src="https://picsum.photos/960/540?random=4" />
+					<img src="https://picsum.photos/960/540?random=5" />
+				</section>
+				<section id="messages">
+					<label for="message">Votre message</label>
+					<textarea
+						name="message"
+						id="message"
+						cols="80%"
+						rows="5"
+						placeholder="Votre message ici"
+					></textarea>
+					<label for="color">Couleur du texte</label>
+					<input type="color" name="color" id="color" />
+				</section>
+			</section>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
